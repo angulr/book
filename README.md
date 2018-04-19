@@ -1,4 +1,4 @@
-# Angular Topics
+# Angular Topics.
 
 1. [Introduction](README.md)
 * [Directive](directive.md)
