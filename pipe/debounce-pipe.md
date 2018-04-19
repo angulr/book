@@ -1,8 +1,8 @@
-# Debounce Pipe [Example](https://plnkr.co/edit/iI7rgdyB51mYxSUcRhlP?p=preview)
+# Debounce Pipe
 
-### DefaultPipe 
+## DefaultPipe
 
-``` ts
+```typescript
 import { ChangeDetectorRef, NgZone, Pipe } from '@angular/core';
 
 @Pipe({name: 'debounce', pure: false})
@@ -44,4 +44,5 @@ export class DebouncePipe {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/iI7rgdyB51mYxSUcRhlP?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/iI7rgdyB51mYxSUcRhlP?p=preview)
+

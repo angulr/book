@@ -1,7 +1,8 @@
-# Validate Email Address [Example](https://plnkr.co/edit/MJwq75W0aBc0XQsfhNbF?p=preview)
+# Validate Email Address
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
     validateEmailAddress(): ValidatorFn {
         return (c: FormControl): { [key: string]: boolean } | null => {
             if (c.value) {
@@ -30,4 +31,5 @@
     };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/MJwq75W0aBc0XQsfhNbF?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/MJwq75W0aBc0XQsfhNbF?p=preview)
+

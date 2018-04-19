@@ -1,7 +1,8 @@
-# Focus [Example](https://plnkr.co/edit/uZBhfa2yFiYYV5ftpy3Q?p=preview "Demo Plunker")
+# Focus
 
-### Directive
-``` ts
+## Directive
+
+```typescript
 @Directive({
   selector: '[nh-focus]'
 })
@@ -28,9 +29,11 @@ export class nhFocusDirective implements AfterViewInit, DoCheck {
 }
 ```
 
-### Usages
-``` html
+## Usages
+
+```markup
 <input type="text" placeholder="Focus" nh-focus="true"/>
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/uZBhfa2yFiYYV5ftpy3Q?p=preview "Demo Plunker")
+## [View and Download Demo](https://plnkr.co/edit/uZBhfa2yFiYYV5ftpy3Q?p=preview)
+

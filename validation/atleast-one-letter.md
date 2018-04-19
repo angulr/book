@@ -1,7 +1,8 @@
-# Atleast One Letter [Example](https://plnkr.co/edit/W2G2JXMEjGBNy9oAMUT0?p=preview)
+# Atleast One Letter
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
  validAtleastoneletter(): ValidatorFn {
      return (control: FormControl): { [key: string]: boolean } | null => {
          if (!control.value) {
@@ -12,4 +13,5 @@
  };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/W2G2JXMEjGBNy9oAMUT0?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/W2G2JXMEjGBNy9oAMUT0?p=preview)
+

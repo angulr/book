@@ -1,7 +1,8 @@
-# Valid Name [Example](https://plnkr.co/edit/YH0BPIV9R39iTIzAUOpc?p=preview)
+# Valid Name
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
 validName(): ValidatorFn {
         return (control: FormControl): { [key: string]: boolean } | null => {
             if (!control.value) {
@@ -47,4 +48,5 @@ validName(): ValidatorFn {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/YH0BPIV9R39iTIzAUOpc?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/YH0BPIV9R39iTIzAUOpc?p=preview)
+

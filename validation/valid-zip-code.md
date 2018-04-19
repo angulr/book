@@ -1,7 +1,8 @@
-# Valid Zip Code [Example](https://plnkr.co/edit/yIxL1dq4fFLkNznAaPUk?p=preview)
+# Valid Zip Code
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
  validZipCode(): ValidatorFn {
    return (control: FormControl): { [key: string]: boolean } | null => {
        if (!control.value) {
@@ -13,4 +14,5 @@
  };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/yIxL1dq4fFLkNznAaPUk?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/yIxL1dq4fFLkNznAaPUk?p=preview)
+

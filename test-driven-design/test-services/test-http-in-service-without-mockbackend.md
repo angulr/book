@@ -1,8 +1,8 @@
-# Test HTTP in Service Without MockBackend [Example](https://plnkr.co/edit/nD13QzlTovkZCqH1iR0s?p=preview)
+# Test HTTP in Service Without MockBackend
 
-### Test
+## Test
 
-``` ts
+```typescript
 import {
   fakeAsync,
   inject,
@@ -37,7 +37,7 @@ describe('Search service', () => {
     spyOn(mockHttp, 'get').and.returnValue(Observable.of({
       json: () => mockResponse
     }));
-    
+
     TestBed.configureTestingModule({
       providers: [
         {
@@ -48,7 +48,7 @@ describe('Search service', () => {
       ]
     });
   });
-   
+
   it('should get search results', fakeAsync(
     inject([QuoteService], QuoteService => {
       const expectedUrl = 'src/data.json';
@@ -62,9 +62,9 @@ describe('Search service', () => {
 });
 ```
 
-### Implementation
+## Implementation
 
-``` ts
+```typescript
 import {Http} from '@angular/http';
 import {Injectable, Inject} from '@angular/core';
 import {Observable} from 'rxjs';
@@ -77,7 +77,7 @@ export class QuoteService {
   search(term: string): Observable<any> {
     return this.http.get('src/'+ term+ '.json').map((response) => response.json());
   }
-  
+
   setFoo(value: string): void {
     return setTimeout(() => {
       this.foo = value;
@@ -86,6 +86,5 @@ export class QuoteService {
 }
 ```
 
-
-### [View and Download Demo](https://plnkr.co/edit/nD13QzlTovkZCqH1iR0s?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/nD13QzlTovkZCqH1iR0s?p=preview)
 

@@ -1,8 +1,8 @@
-# Verify Methods and Properties [Example](https://plnkr.co/edit/5bRWPGmjMgRZIlVXQn5d?p=preview)
+# Verify Methods and Properties
 
-### Test
+## Test
 
-``` ts
+```typescript
 import {MessageComponent} from './message.component';
 
 describe('Testing message state in message.component', () => {
@@ -24,9 +24,9 @@ describe('Testing message state in message.component', () => {
 });
 ```
 
-### Implementation
+## Implementation
 
-``` ts
+```typescript
 import {Component} from '@angular/core';
 
 @Component({
@@ -40,7 +40,7 @@ export class MessageComponent {
   constructor() {}
 
   setMessage(newMessage: string) {
-  	this.message = newMessage;
+      this.message = newMessage;
   }
 
   clearMessage() {
@@ -49,5 +49,5 @@ export class MessageComponent {
 }
 ```
 
+## [View and Download Demo](https://plnkr.co/edit/5bRWPGmjMgRZIlVXQn5d?p=preview)
 
-### [View and Download Demo](https://plnkr.co/edit/5bRWPGmjMgRZIlVXQn5d?p=preview)

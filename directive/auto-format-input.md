@@ -1,11 +1,8 @@
-# Auto Format Input [Example](https://plnkr.co/edit/zSv0p4I3rxqA3uu2JrGN?p=preview "Demo Plunker")
+# Auto Format Input
 
+## Directive
 
-
-
-
-### Directive
-``` ts
+```typescript
 @Directive({
     selector: '[nhFormatInput]',
     host: {
@@ -43,9 +40,9 @@ export class nhFormatInputDirective {
 }
 ```
 
+## AoFormatValue Class
 
-### AoFormatValue Class
-``` ts
+```typescript
 export class AoFormatValue {
   static acceptableFormats: any[] = [
     /^(\d{2})(\d{2})(\d{4})$/,
@@ -125,9 +122,9 @@ export class AoFormatValue {
 }
 ```
 
+## Usages
 
-### Usages
-``` html
+```markup
 <form [formGroup]="employmentForm">
   <input type="text" formControlName="price" name="price" placeholder="Format Price" nhFormatInput="income" />
   <br/>
@@ -139,7 +136,5 @@ export class AoFormatValue {
 </form>
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/zSv0p4I3rxqA3uu2JrGN?p=preview "Demo Plunker")
-
-
+## [View and Download Demo](https://plnkr.co/edit/zSv0p4I3rxqA3uu2JrGN?p=preview)
 

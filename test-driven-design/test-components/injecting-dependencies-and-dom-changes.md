@@ -1,10 +1,8 @@
-# Injecting Dependencies and DOM Changes [Example](https://plnkr.co/edit/iXkHYNOeEoewGS4OXWbm?p=preview)
+# Injecting Dependencies and DOM Changes
 
+## Test
 
-
-### Test
-
-``` ts
+```typescript
 import { QuoteService } from './quote.service';
 import { QuoteComponent } from './quote.component';
 import { provide } from '@angular/core';
@@ -54,9 +52,9 @@ describe('Testing Quote Component', () => {
 });
 ```
 
-### Component
+## Component
 
-``` ts
+```typescript
 import { Component } from '@angular/core';
 import { QuoteService } from './quote.service';
 
@@ -78,9 +76,9 @@ export class QuoteComponent {
 }
 ```
 
-### Service
+## Service
 
-``` ts
+```typescript
 export class QuoteService {
   public quote: 'Test quote';
 
@@ -92,4 +90,5 @@ export class QuoteService {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/iXkHYNOeEoewGS4OXWbm?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/iXkHYNOeEoewGS4OXWbm?p=preview)
+

@@ -1,7 +1,8 @@
-# Atleast One Number [Example](https://plnkr.co/edit/lsM5U95lDDsdUaSgu5E3?p=preview)
+# Atleast One Number
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
  validAtleastonenumber(): ValidatorFn {
      return (control: FormControl): { [key: string]: boolean } | null => {
          if (!control.value) {
@@ -12,4 +13,5 @@
  };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/lsM5U95lDDsdUaSgu5E3?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/lsM5U95lDDsdUaSgu5E3?p=preview)
+

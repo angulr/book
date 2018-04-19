@@ -1,8 +1,8 @@
-# Default Pipe [Example](https://plnkr.co/edit/BUP3HRHOBsgsAbDVJ4pG?p=preview)
+# Default Pipe
 
-### DefaultPipe 
+## DefaultPipe
 
-``` ts
+```typescript
 import { Pipe } from '@angular/core';
 
 @Pipe({name: 'default', pure: true})
@@ -13,4 +13,5 @@ export class DefaultPipe {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/BUP3HRHOBsgsAbDVJ4pG?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/BUP3HRHOBsgsAbDVJ4pG?p=preview)
+

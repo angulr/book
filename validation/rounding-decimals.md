@@ -1,7 +1,8 @@
-# Rounding Decimals [Example](https://plnkr.co/edit/dYzICF32iYCbEuJIYkR2?p=preview)
+# Rounding Decimals
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   roundingDecimals(maxNumber: number): ValidatorFn {
       return (c: FormControl): { [key: string]: boolean } | null => {
           let value = c.value;
@@ -26,4 +27,5 @@
   };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/dYzICF32iYCbEuJIYkR2?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/dYzICF32iYCbEuJIYkR2?p=preview)
+

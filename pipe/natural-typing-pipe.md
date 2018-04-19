@@ -1,8 +1,8 @@
-# Natural Typing Pipe [Example](https://plnkr.co/edit/1IcFLMX6fDe9sCvvTYyx?p=preview)
+# Natural Typing Pipe
 
-### DefaultPipe 
+## DefaultPipe
 
-``` ts
+```typescript
 import { ChangeDetectorRef, NgZone, Pipe } from '@angular/core';
 
 @Pipe({name: 'naturalType', pure: false})
@@ -28,7 +28,7 @@ export class NaturalType {
       }
       return this.typed;
    }
-   
+
    private typeNextCharacter(mintypingSpeed: number) {
     this.currentIndex++;
     this.typed = this.target.substr(0, this.currentIndex);
@@ -43,5 +43,5 @@ export class NaturalType {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/1IcFLMX6fDe9sCvvTYyx?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/1IcFLMX6fDe9sCvvTYyx?p=preview)
 

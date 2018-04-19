@@ -1,7 +1,8 @@
-# Valid Duplicates [Example](https://plnkr.co/edit/cndyKcgxfXFnQKbexWbl?p=preview)
+# Valid Duplicates
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   validDuplicates(list: any): ValidatorFn {
     return (c: FormControl): {[key: string]: boolean} | null => {
       if (list && c.value) {
@@ -16,4 +17,5 @@
   };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/cndyKcgxfXFnQKbexWbl?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/cndyKcgxfXFnQKbexWbl?p=preview)
+

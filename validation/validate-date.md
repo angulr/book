@@ -1,7 +1,8 @@
-# Validate Date [Example](https://plnkr.co/edit/W8p5YP49SEcLzGPM6a25?p=preview)
+# Validate Date
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   validateDate(): ValidatorFn {
       return (c: FormControl): { [key: string]: boolean } | null => {
           let value = c.value;
@@ -35,8 +36,9 @@
   };
 ```
 
-### Helper Functions isValidDate and acceptableFormats
-``` ts
+## Helper Functions isValidDate and acceptableFormats
+
+```typescript
 export class HnFormatValue {
   static acceptableFormats: any[] = [
     /^(\d{2})(\d{2})(\d{4})$/,
@@ -44,7 +46,7 @@ export class HnFormatValue {
     /^(\d{1,2})-(\d{1,2})-(\d{4})$/,
     /^(\d{1,2})\s(\d{1,2})\s(\d{4})$/
   ];
-  
+
   static isValidDate(MM: any, DD: any, YYYY: any): boolean {
     if (MM < 1 || MM > 12) {
       return false;
@@ -65,4 +67,5 @@ export class HnFormatValue {
 }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/W8p5YP49SEcLzGPM6a25?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/W8p5YP49SEcLzGPM6a25?p=preview)
+

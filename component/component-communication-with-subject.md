@@ -1,39 +1,41 @@
-# Component Communication with Subject [Example](https://plnkr.co/edit/6DN45y?p=preview)
+# Component Communication with Subject
 
+## Observable.subscribe\(\)
 
-### Observable.subscribe()
 The observable subscribe method is used to subscribe to messages that are sent to an observable.
 
-### Subject.next()
+## Subject.next\(\)
+
 The subject next method is used to send messages to an observable which are then sent to all subscribers of that observable.
 
-### Message Service
-``` ts
+## Message Service
+
+```typescript
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Subject } from 'rxjs/Subject';
- 
+
 @Injectable()
 export class MessageService {
     private subject = new Subject<any>();
- 
+
     sendMessage(message: string) {
         this.subject.next({ text: message });
     }
- 
+
     clearMessage() {
         this.subject.next();
     }
- 
+
     getMessage(): Observable<any> {
         return this.subject.asObservable();
     }
 }
 ```
 
-### App Component
+## App Component
 
-```
+```text
 import {Component, OnDestroy} from '@angular/core'
 import { Subscription } from 'rxjs/Subscription';
 import { MessageService } from './message.service';
@@ -61,7 +63,7 @@ export class App implements OnDestroy{
         this.message = message; 
       });
   }
-  
+
   ngOnDestroy() {
     // unsubscribe to ensure no memory leaks
     this.subscription.unsubscribe();
@@ -69,9 +71,9 @@ export class App implements OnDestroy{
 }
 ```
 
-### Home Component
+## Home Component
 
-``` ts
+```typescript
 import { Component } from '@angular/core';
 import { MessageService } from './message.service';
 
@@ -85,10 +87,10 @@ import { MessageService } from './message.service';
     </div>
     `
 })
- 
+
 export class HomeComponent {
     constructor(private messageService: MessageService) {}
-    
+
     sendMessage(): void {
         // send message to subscribers via observable subject
         this.messageService.sendMessage('Message from Home Component to App Component!');
@@ -101,5 +103,5 @@ export class HomeComponent {
 }
 ```
 
+## [View and Download Demo](https://plnkr.co/edit/6DN45y?p=preview)
 
-### [View and Download Demo](https://plnkr.co/edit/6DN45y?p=preview)

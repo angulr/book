@@ -1,7 +1,8 @@
-# Prohibited Word [Example](https://plnkr.co/edit/sk3zRWvmpAeATHtpoJj6?p=preview)
+# Prohibited Word
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   prohibitedWord(): ValidatorFn {
     return (c: FormControl): { [key: string]: boolean } | null => {
       if (c.value) {
@@ -15,4 +16,5 @@
   };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/sk3zRWvmpAeATHtpoJj6?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/sk3zRWvmpAeATHtpoJj6?p=preview)
+

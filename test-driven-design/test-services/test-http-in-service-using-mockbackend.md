@@ -1,8 +1,8 @@
-# Test HTTP in Service Using MockBackend [Example](https://plnkr.co/edit/Lzoqt1WYIr5y5Bz1Pyqa?p=preview)
+# Test HTTP in Service Using MockBackend
 
-### Test
+## Test
 
-``` ts
+```typescript
 import {
   fakeAsync,
   inject,
@@ -29,7 +29,7 @@ const mockResponse = [{
 }];
 
 describe('Search service', () => {
-  
+
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [HttpModule],
@@ -42,20 +42,20 @@ describe('Search service', () => {
       ]
     });
   });
-  
+
   it('should get search results', fakeAsync(
     inject([
       XHRBackend,
       QuoteService
     ], (mockBackend: XHRBackend, QuoteService: QuoteService) => {
-      
+
       const expectedUrl = 'src/data.json';
-      
+
       mockBackend.connections.subscribe(
         (connection: MockConnection) => {
           expect(connection.request.method).toBe(RequestMethod.Get);
           expect(connection.request.url).toBe(expectedUrl);
-          
+
           connection.mockRespond(new Response(
             new ResponseOptions({ body: mockResponse })
           ));
@@ -68,7 +68,7 @@ describe('Search service', () => {
         });
     })
   ));
-  
+
   it('should set foo with a 1s delay', fakeAsync(
     inject([QuoteService], (quoteService: QuoteService) => {
       quoteService.setFoo('food');
@@ -76,13 +76,13 @@ describe('Search service', () => {
       expect(quoteService.foo).toEqual('food');
     })
   ));
-  
+
 });
 ```
 
-### Implementation
+## Implementation
 
-``` ts
+```typescript
 import {Http} from '@angular/http';
 import {Injectable, Inject} from '@angular/core';
 import {Observable} from 'rxjs';
@@ -95,7 +95,7 @@ export class QuoteService {
   search(term: string): Observable<any> {
     return this.http.get('src/'+ term+ '.json').map((response) => response.json());
   }
-  
+
   setFoo(value: string): void {
     return setTimeout(() => {
       this.foo = value;
@@ -103,7 +103,8 @@ export class QuoteService {
   }
 }
 ```
+
 > To Test **JSONP **and **XHR Back-Ends **we can use `MockBrowserJsonp` and `XHRBackend` respectively.
 
-### [View and Download Demo](https://plnkr.co/edit/Lzoqt1WYIr5y5Bz1Pyqa?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/Lzoqt1WYIr5y5Bz1Pyqa?p=preview)
 

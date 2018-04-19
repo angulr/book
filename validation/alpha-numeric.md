@@ -1,7 +1,8 @@
-# Alpha Numeric [Example](https://plnkr.co/edit/GNlWc1wXWMjfhjQEL2FN?p=preview)
+# Alpha Numeric
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   alphaNumeric(allowedPhrase: string): ValidatorFn {
     return (c: FormControl): { [key: string]: boolean } | null => {
       if (c.value) {
@@ -16,4 +17,5 @@
   };
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/GNlWc1wXWMjfhjQEL2FN?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/GNlWc1wXWMjfhjQEL2FN?p=preview)
+

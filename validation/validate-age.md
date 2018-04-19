@@ -1,7 +1,8 @@
-# Validate Age [Example](https://plnkr.co/edit/Kt7gjnizY8CutfWUN3HC?p=preview)
+# Validate Age
 
-### Validation Function
-``` ts
+## Validation Function
+
+```typescript
   validateDate(minAge: number, maxAge: number, isCustodialMinor: boolean): ValidatorFn {
       return (c: FormControl): { [key: string]: boolean } | null => {
           let value = c.value;
@@ -31,8 +32,9 @@
   };
 ```
 
-### Helper Functions
-``` ts
+## Helper Functions
+
+```typescript
  isValidAge(MM: any, DD: any, YYYY: any, minAge: any, maxAge: any) {
      let actualAge = this.calculateAge(MM, DD, YYYY);
      return (actualAge >= minAge && actualAge < maxAge);
@@ -53,7 +55,7 @@
      }
      return age;
  }
- 
+
  isValidDate(MM: any, DD: any, YYYY: any): boolean {
      if (MM < 1 || MM > 12) {
          return false;
@@ -72,4 +74,5 @@
  }
 ```
 
-### [View and Download Demo](https://plnkr.co/edit/Kt7gjnizY8CutfWUN3HC?p=preview)
+## [View and Download Demo](https://plnkr.co/edit/Kt7gjnizY8CutfWUN3HC?p=preview)
+
