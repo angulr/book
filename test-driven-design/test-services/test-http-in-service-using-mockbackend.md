@@ -104,7 +104,7 @@ export class QuoteService {
 }
 ```
 
-> To Test **JSONP **and **XHR Back-Ends **we can use `MockBrowserJsonp` and `XHRBackend` respectively.
+> To Test **JSONP** and **XHR Back-Ends** we can use `MockBrowserJsonp` and `XHRBackend` respectively.
 
 ## [View and Download Demo](https://plnkr.co/edit/Lzoqt1WYIr5y5Bz1Pyqa?p=preview)
 

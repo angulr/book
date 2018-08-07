@@ -19,6 +19,7 @@
   * [Rounding Decimals](validation/rounding-decimals.md)
 * [Service](service/README.md)
   * [WindowRefService](service/windowrefservice.md)
+  * [Sharing Data using Service](service/sharing-data-using-service.md)
 * [Pipe](pipe/README.md)
   * [Default Pipe](pipe/default-pipe.md)
   * [Debounce Pipe](pipe/debounce-pipe.md)
