@@ -27,6 +27,8 @@
   * [Tracking Pipe](pipe/tracking-pipe.md)
 * [Component](component/README.md)
   * [Component Communication with Subject](component/component-communication-with-subject.md)
+  * [Custom Rx Blink Component](component/custom-rx-blink-component.md)
+  * [Blink with CSS](component/blink-with-css.md)
 * [Test Driven Design](test-driven-design/README.md)
   * [Test Components](test-driven-design/test-components/README.md)
     * [Verify Methods and Properties](test-driven-design/test-components/verify-methods-and-properties.md)
