@@ -90,5 +90,9 @@ export class QuoteService {
 }
 ```
 
-## [View and Download Demo](https://plnkr.co/edit/iXkHYNOeEoewGS4OXWbm?p=preview)
+## All Test Preview
+
+{% embed url="https://stackblitz.com/edit/angulr-test?embed=1&view=preview" %}
+
+
 
