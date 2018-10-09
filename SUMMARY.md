@@ -31,6 +31,7 @@
   * [Blink with CSS](component/blink-with-css.md)
 * [Test Driven Design](test-driven-design/README.md)
   * [Test Components](test-driven-design/test-components/README.md)
+    * [Verify DOM Text](test-driven-design/test-components/verify-h1-inner-text.md)
     * [Verify Methods and Properties](test-driven-design/test-components/verify-methods-and-properties.md)
     * [Injecting Dependencies and DOM Changes](test-driven-design/test-components/injecting-dependencies-and-dom-changes.md)
     * [Asynchronous Action](test-driven-design/test-components/asynchronous-action.md)
