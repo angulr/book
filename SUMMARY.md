@@ -50,4 +50,7 @@
 * [Scales and Axes](d3.js/scales-and-axes/README.md)
   * [Scales in D3](d3.js/scales-and-axes/scales-in-d3.md)
   * [Min, Max, Extent and Map function](d3.js/scales-and-axes/min-max-extent-and-map-function.md)
+  * [Margin and Groups](d3.js/scales-and-axes/margin-and-groups.md)
+  * [Axis Generators](d3.js/scales-and-axes/axis-generators.md)
+  * [Tick size and spacing](d3.js/scales-and-axes/axes-and-labels.md)
 
