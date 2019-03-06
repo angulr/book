@@ -20,7 +20,7 @@
 
 ![](../../.gitbook/assets/image.png)
 
-### SVG Circle
+## SVG Circle
 
 ```markup
 <svg width="400" height="60">
@@ -30,7 +30,7 @@
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-### SVG Ellipses
+## SVG Ellipses
 
 ```markup
 <svg width="400" height="60">

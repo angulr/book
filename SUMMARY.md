@@ -47,4 +47,5 @@
 * [Understanding D3](d3.js/understanding-d3/README.md)
   * [Simple SVG](d3.js/understanding-d3/simple-svg.md)
   * [Adding SVG to D3](d3.js/understanding-d3/adding-svg-to-d3.md)
+  * [Scales in D3](d3.js/understanding-d3/scales-in-d3.md)
 
