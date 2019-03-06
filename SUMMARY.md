@@ -47,5 +47,7 @@
 * [Understanding D3](d3.js/understanding-d3/README.md)
   * [Simple SVG](d3.js/understanding-d3/simple-svg.md)
   * [Adding SVG to D3](d3.js/understanding-d3/adding-svg-to-d3.md)
-  * [Scales in D3](d3.js/understanding-d3/scales-in-d3.md)
+* [Scales and Axes](d3.js/scales-and-axes/README.md)
+  * [Scales in D3](d3.js/scales-and-axes/scales-in-d3.md)
+  * [Min, Max, Extent and Map function](d3.js/scales-and-axes/min-max-extent-and-map-function.md)
 
