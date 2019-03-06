@@ -2,7 +2,7 @@
 
  When passing data between components that lack a direct connection like siblings component, grandchildren, grandparent component we can use **shared service**.
 
-![](../.gitbook/assets/untitled-diagram.png)
+![](../../.gitbook/assets/untitled-diagram.png)
 
 We can use  **BehaviorSubject** for sharing data via the service.
 

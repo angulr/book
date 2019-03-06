@@ -9,7 +9,7 @@ There are two levels of TDD.
 1. Acceptance TDD \(ATDD\) / Behavior Driven Development \(BDD\)
 2. Developer TDD
 
-![](../.gitbook/assets/tdd2.jpg)
+![](../../.gitbook/assets/tdd2.jpg)
 
 ## Content for TDD in Angular
 
