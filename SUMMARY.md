@@ -53,4 +53,6 @@
   * [Margin and Groups](d3.js/scales-and-axes/margin-and-groups.md)
   * [Axis Generators](d3.js/scales-and-axes/axis-generators.md)
   * [Tick size and spacing](d3.js/scales-and-axes/axes-and-labels.md)
+  * [Editing ticks](d3.js/scales-and-axes/editing-ticks.md)
+  * [Axis and Ticks Example](d3.js/scales-and-axes/axis-and-ticks-example.md)
 
