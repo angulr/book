@@ -54,5 +54,9 @@
   * [Axis Generators](d3.js/scales-and-axes/axis-generators.md)
   * [Tick size and spacing](d3.js/scales-and-axes/axes-and-labels.md)
   * [Editing ticks](d3.js/scales-and-axes/editing-ticks.md)
-  * [Final Example](d3.js/scales-and-axes/axis-and-ticks-example.md)
+  * [Complete Bar Chart Example](d3.js/scales-and-axes/axis-and-ticks-example.md)
+* [Dynamic Chart](d3.js/dynamic-chart/README.md)
+  * [Adding an update function](d3.js/dynamic-chart/adding-an-update-function.md)
+  * [D3 Transition](d3.js/dynamic-chart/d3-transition.md)
+  * [Scatter Plot](d3.js/dynamic-chart/scatter-plot.md)
 

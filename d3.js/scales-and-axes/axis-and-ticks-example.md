@@ -1,4 +1,4 @@
-# Final Example
+# Complete Bar Chart Example
 
 ## With Axis and Ticks
 
