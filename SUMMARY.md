@@ -59,4 +59,5 @@
   * [Adding an update function](d3.js/dynamic-chart/adding-an-update-function.md)
   * [D3 Transition](d3.js/dynamic-chart/d3-transition.md)
   * [Scatter Plot](d3.js/dynamic-chart/scatter-plot.md)
+  * [Gapminder Project](d3.js/dynamic-chart/gapminder-project.md)
 
