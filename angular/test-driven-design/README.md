@@ -2,7 +2,7 @@
 
 TDD is an important agile requirements and agile design technique.
 
-In normal Testing process, we first generate the code and then test. But in TDD approach we write Test first and let the Test fail. In order to pass the test, the team has to develop and refactors the code. Refactoring a code involves changing some code without affecting its behavior.
+In normal Testing process, we first generate the code and then test. But in TDD approach we write Test first and let the Test fails. In order to pass the test, the team has to develop and refactors the code. Refactoring a code involves changing some code without affecting its behavior.
 
 There are two levels of TDD.
 
