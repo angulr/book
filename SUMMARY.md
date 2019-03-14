@@ -35,6 +35,7 @@
 * [Test Driven Design](angular/test-driven-design/README.md)
   * [Types of Mocks](angular/test-driven-design/types-of-mocks.md)
   * [Writing Good Unit Test](angular/test-driven-design/writing-good-unit-test.md)
+  * [Interaction Testing](angular/test-driven-design/interaction-testing.md)
   * [Testing Pipe](angular/test-driven-design/testing-pipe.md)
   * [Testing Components](angular/test-driven-design/test-components/README.md)
     * [Verify DOM Text](angular/test-driven-design/test-components/verify-h1-inner-text.md)
@@ -42,8 +43,18 @@
     * [Injecting Dependencies and DOM Changes](angular/test-driven-design/test-components/injecting-dependencies-and-dom-changes.md)
     * [Asynchronous Action](angular/test-driven-design/test-components/asynchronous-action.md)
   * [Testing Services](angular/test-driven-design/test-services/README.md)
+    * [Simple Service](angular/test-driven-design/test-services/simple-service.md)
     * [Test HTTP in Service Using MockBackend](angular/test-driven-design/test-services/test-http-in-service-using-mockbackend.md)
     * [Test HTTP in Service Without MockBackend](angular/test-driven-design/test-services/test-http-in-service-without-mockbackend.md)
+
+## NgRx
+
+* [How Redux Works](ngrx/redux.md)
+* [Why use Redux](ngrx/why-use-redux.md)
+* [Redux Principal](ngrx/redux-principal.md)
+* [Do you have to put every piece of state in the store](ngrx/do-you-have-to-put-every-piece-of-state-in-the-store.md)
+* [State, Action, Reducer](ngrx/state-action-reducer.md)
+* [Pure Function](ngrx/pure-function.md)
 
 ## D3.JS
 
@@ -65,4 +76,5 @@
   * [Gapminder Project](d3.js/dynamic-chart/gapminder-project.md)
 * [Interactive](d3.js/interactive/README.md)
   * [Adding Legend](d3.js/interactive/adding-legend.md)
+  * [Tooltip using d3-tip library](d3.js/interactive/tooltip-using-d3-tip-library.md)
 
