@@ -39,6 +39,7 @@
   * [Testing Pipe](angular/test-driven-design/testing-pipe.md)
   * [Testing Components](angular/test-driven-design/test-components/README.md)
     * [Verify DOM Text](angular/test-driven-design/test-components/verify-h1-inner-text.md)
+    * [Mocking to Isolate Code](angular/test-driven-design/test-components/mocking-to-isolate-code.md)
     * [Verify Methods and Properties](angular/test-driven-design/test-components/verify-methods-and-properties.md)
     * [Injecting Dependencies and DOM Changes](angular/test-driven-design/test-components/injecting-dependencies-and-dom-changes.md)
     * [Asynchronous Action](angular/test-driven-design/test-components/asynchronous-action.md)
@@ -77,4 +78,5 @@
 * [Interactive](d3.js/interactive/README.md)
   * [Adding Legend](d3.js/interactive/adding-legend.md)
   * [Tooltip using d3-tip library](d3.js/interactive/tooltip-using-d3-tip-library.md)
+  * [Event listener and handlers](d3.js/interactive/event-listener-and-handlers.md)
 
