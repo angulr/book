@@ -56,6 +56,7 @@
 * [Do you have to put every piece of state in the store](ngrx/do-you-have-to-put-every-piece-of-state-in-the-store.md)
 * [State, Action, Reducer](ngrx/state-action-reducer.md)
 * [Pure Function](ngrx/pure-function.md)
+* [State Management in Angular](ngrx/state-management-in-angular.md)
 
 ## D3.JS
 
@@ -79,4 +80,5 @@
   * [Adding Legend](d3.js/interactive/adding-legend.md)
   * [Tooltip using d3-tip library](d3.js/interactive/tooltip-using-d3-tip-library.md)
   * [Event listener and handlers](d3.js/interactive/event-listener-and-handlers.md)
+  * [Line graph Example](d3.js/interactive/line-graph-example.md)
 
