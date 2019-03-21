@@ -82,4 +82,8 @@
   * [Tooltip using d3-tip library](d3.js/interactive/tooltip-using-d3-tip-library.md)
   * [Event listener and handlers](d3.js/interactive/event-listener-and-handlers.md)
   * [Line graph Example](d3.js/interactive/line-graph-example.md)
+* [Reusing Other's D3 Visualization](d3.js/reusing-others-d3-visualization/README.md)
+  * [Migrating to Version 5.x](d3.js/reusing-others-d3-visualization/migrating-to-version-5.x.md)
+* [Improving Performance](d3.js/improving-performance/README.md)
+  * [D3 Nest Example](d3.js/improving-performance/d3-nest-example.md)
 

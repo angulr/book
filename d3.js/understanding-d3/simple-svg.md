@@ -8,7 +8,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ## SVG Rectangle with Stroke
 
@@ -18,7 +18,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 ## SVG Circle
 
@@ -28,7 +28,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 ## SVG Ellipses
 
@@ -38,7 +38,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 ## SVG Lines
 
@@ -48,7 +48,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ## SVG Text
 
@@ -58,7 +58,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 ## SVG Path
 
@@ -68,7 +68,7 @@
 </svg>
 ```
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 Example: 
 
