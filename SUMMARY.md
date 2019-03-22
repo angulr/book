@@ -86,4 +86,6 @@
   * [Migrating to Version 5.x](d3.js/reusing-others-d3-visualization/migrating-to-version-5.x.md)
 * [Improving Performance](d3.js/improving-performance/README.md)
   * [D3 Nest Example](d3.js/improving-performance/d3-nest-example.md)
+* [Projects](d3.js/projects/README.md)
+  * [Progress Bar](d3.js/projects/progress-bar.md)
 
