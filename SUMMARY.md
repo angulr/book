@@ -92,4 +92,7 @@
   * [Bubble Chart](d3.js/projects/bubble-chart.md)
   * [Line Graph](d3.js/projects/line-graph.md)
   * [Progress Bar](d3.js/projects/progress-bar.md)
+  * [Area Chart](d3.js/projects/area-chart.md)
+  * [Stacked Area Chart](d3.js/projects/stacked-area-chart.md)
+  * [Donut Chart](d3.js/projects/donut-chart.md)
 

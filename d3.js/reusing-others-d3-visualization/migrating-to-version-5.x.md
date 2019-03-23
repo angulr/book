@@ -7,6 +7,7 @@
 * Deprecation of d3.queue\(\)
   * We don't need to use queue for loading multiple sets of data
 * Removed d3.schemeCatagory20
+  * We can use any other color schema like schemeAccent etc.
 * Addition of the d3-scale-chromatic module
 
 ## Migrate V3 to V4
