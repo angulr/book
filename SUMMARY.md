@@ -49,7 +49,7 @@
     * [Test HTTP in Service Without MockBackend](angular/test-driven-design/test-services/test-http-in-service-without-mockbackend.md)
 * [Lazy Loading Interface](angular/lazy-loading-interface.md)
 
-## NgRx
+## Redux
 
 * [How Redux Works](ngrx/redux.md)
 * [Why use Redux](ngrx/why-use-redux.md)
