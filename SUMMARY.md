@@ -87,5 +87,9 @@
 * [Improving Performance](d3.js/improving-performance/README.md)
   * [D3 Nest Example](d3.js/improving-performance/d3-nest-example.md)
 * [Projects](d3.js/projects/README.md)
+  * [Bar Chart](d3.js/projects/bar-chart.md)
+  * [Scatter Plot](d3.js/projects/scatter-plot-chart.md)
+  * [Bubble Chart](d3.js/projects/bubble-chart.md)
+  * [Line Graph](d3.js/projects/line-graph.md)
   * [Progress Bar](d3.js/projects/progress-bar.md)
 
