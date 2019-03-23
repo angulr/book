@@ -48,6 +48,7 @@
     * [Test HTTP in Service Using MockBackend](angular/test-driven-design/test-services/test-http-in-service-using-mockbackend.md)
     * [Test HTTP in Service Without MockBackend](angular/test-driven-design/test-services/test-http-in-service-without-mockbackend.md)
 * [Lazy Loading Interface](angular/lazy-loading-interface.md)
+* [RxJS Operator](angular/rxjs-operator.md)
 
 ## Redux
 
