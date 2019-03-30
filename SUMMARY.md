@@ -101,4 +101,5 @@
 
 * [Why OAuth Have Both Access Tokens and Refresh Token](identity-server-4/why-oauth-have-both-access-tokens-and-refresh-token.md)
 * [What is OAuth and OIDC](identity-server-4/what-is-oauth-and-oidc.md)
+* [Grant Type](identity-server-4/grant-type.md)
 

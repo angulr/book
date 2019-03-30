@@ -19,7 +19,7 @@ var nested_data = d3.nest()
 .entries(csv_data);
 ```
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ## Rollup to Count and Sum
 
@@ -48,7 +48,7 @@ var nested_data = d3.nest()
 .entries(csv_data);
 ```
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ## Sorting
 
@@ -60,7 +60,7 @@ var nested_data = d3.nest()
 .entries(csv_data);
 ```
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ## Sorting - custom order
 
@@ -77,7 +77,7 @@ var nested_data = d3.nest()
 .entries(csv_data);
 ```
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 ## Sorting - sort the leaves as well
 
@@ -96,5 +96,5 @@ var nested_data = d3.nest()
 .entries(csv_data);
 ```
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 

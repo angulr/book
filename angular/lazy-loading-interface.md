@@ -12,11 +12,11 @@ App Component or App Module are the root of our application and if we import a c
 
 We can remove `ProductState` importing directly from app
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 and extend it to Child Component.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 This extend is defined to keep our lazy loading boundary intact.
 
